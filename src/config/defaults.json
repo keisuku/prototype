@@ -1,0 +1,7 @@
+{
+  "startingBalance": 1000000,
+  "currency": "JPY",
+  "pollingIntervalMs": 60000,
+  "sigmaWindow": 20,
+  "baselineSigmaWindow": 480
+}

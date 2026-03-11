@@ -1,0 +1,10 @@
+{
+  "calm": { "max": 0.5 },
+  "sense": { "min": 0.5, "max": 1.0 },
+  "quickening": { "min": 1.0, "max": 1.5 },
+  "clash": { "min": 1.5, "max": 2.0 },
+  "intense": { "min": 2.0, "max": 2.5 },
+  "awakening": { "min": 2.5, "max": 3.0 },
+  "critical": { "min": 3.0 },
+  "fizzle": { "dropFromMinLevel": "quickening", "dropToMax": 0.5 }
+}
