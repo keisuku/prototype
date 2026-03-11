@@ -1,0 +1,81 @@
+{
+  "id": "sarah",
+  "name": "SARAH",
+  "title": "Flame Oracle",
+  "beast": "phoenix",
+  "timeframe": "15m",
+  "symbol": "BTCUSDT",
+  "strategy": "trend_follow_ma",
+  "states": {
+    "calm": {
+      "character": { "image": "characters/sarah/idle.png", "animation": null },
+      "beast": { "image": "characters/sarah/beast-chibi.png", "size": "chibi", "position": { "x": 0.8, "y": 0.7 } },
+      "background": { "image": "backgrounds/calm.png", "tint": null },
+      "effects": [],
+      "sound": { "ambient": "sounds/ambient/calm.mp3", "bgm": "sounds/bgm/calm.mp3", "sfx_enter": null },
+      "ui": { "accentColor": "#4A90D9", "particleDensity": 0 }
+    },
+    "sense": {
+      "character": { "image": "characters/sarah/idle.png", "animation": null },
+      "beast": { "image": "characters/sarah/beast-chibi.png", "size": "chibi", "position": { "x": 0.8, "y": 0.65 } },
+      "background": { "image": "backgrounds/sense.png", "tint": "#FFD70020" },
+      "effects": [],
+      "sound": { "ambient": "sounds/ambient/sense.mp3", "bgm": "sounds/bgm/sense.mp3", "sfx_enter": "sounds/sfx/sense-chime.mp3" },
+      "ui": { "accentColor": "#FFD700", "particleDensity": 5 }
+    },
+    "quickening": {
+      "character": { "image": "characters/sarah/battle.png", "animation": null },
+      "beast": { "image": "characters/sarah/beast-medium.png", "size": "medium", "position": { "x": 0.75, "y": 0.5 } },
+      "background": { "image": "backgrounds/quickening.png", "tint": "#FF450030" },
+      "effects": [],
+      "sound": { "ambient": "sounds/ambient/quickening.mp3", "bgm": "sounds/bgm/quickening.mp3", "sfx_enter": "sounds/sfx/quickening-whoosh.mp3" },
+      "ui": { "accentColor": "#FF6347", "particleDensity": 15 }
+    },
+    "clash": {
+      "character": { "image": "characters/sarah/battle.png", "animation": null },
+      "beast": { "image": "characters/sarah/beast-medium.png", "size": "medium", "position": { "x": 0.7, "y": 0.45 } },
+      "background": { "image": "backgrounds/clash.png", "tint": "#FF000040" },
+      "effects": [],
+      "sound": { "ambient": "sounds/ambient/clash.mp3", "bgm": "sounds/bgm/clash.mp3", "sfx_enter": "sounds/sfx/clash-impact.mp3" },
+      "ui": { "accentColor": "#FF4500", "particleDensity": 25 }
+    },
+    "intense": {
+      "character": { "image": "characters/sarah/hot.png", "animation": null },
+      "beast": { "image": "characters/sarah/beast-large.png", "size": "large", "position": { "x": 0.5, "y": 0.3 } },
+      "background": { "image": "backgrounds/intense.png", "tint": "#FF000060" },
+      "effects": [],
+      "sound": { "ambient": "sounds/ambient/intense.mp3", "bgm": "sounds/bgm/intense.mp3", "sfx_enter": "sounds/sfx/intense-hit.mp3" },
+      "ui": { "accentColor": "#FF0000", "particleDensity": 40 }
+    },
+    "awakening": {
+      "character": { "image": "characters/sarah/awaken.png", "animation": null },
+      "beast": { "image": "characters/sarah/beast-fullscreen.png", "size": "fullscreen", "position": { "x": 0.5, "y": 0.2 } },
+      "background": { "image": "backgrounds/awakening.png", "tint": "#FFD70080" },
+      "effects": [],
+      "sound": { "ambient": "sounds/ambient/awakening.mp3", "bgm": "sounds/bgm/awakening.mp3", "sfx_enter": "sounds/sfx/awakening-roar.mp3" },
+      "ui": { "accentColor": "#FFD700", "particleDensity": 60 }
+    },
+    "critical": {
+      "character": { "image": "characters/sarah/critical.png", "animation": null },
+      "beast": { "image": "characters/sarah/beast-fullscreen.png", "size": "fullscreen", "position": { "x": 0.5, "y": 0.1 } },
+      "background": { "image": "backgrounds/critical.png", "tint": "#FFFFFF80" },
+      "effects": [],
+      "sound": { "ambient": "sounds/ambient/critical.mp3", "bgm": "sounds/bgm/critical.mp3", "sfx_enter": "sounds/sfx/critical-explosion.mp3" },
+      "ui": { "accentColor": "#FFFFFF", "particleDensity": 80 }
+    },
+    "fizzle": {
+      "character": { "image": "characters/sarah/fizzle.png", "animation": null },
+      "beast": { "image": "characters/sarah/beast-chibi.png", "size": "chibi", "position": { "x": 0.5, "y": 0.8 } },
+      "background": { "image": "backgrounds/calm.png", "tint": "#80808040" },
+      "effects": [],
+      "sound": { "ambient": "sounds/ambient/calm.mp3", "bgm": "sounds/bgm/fizzle.mp3", "sfx_enter": "sounds/sfx/fizzle-trombone.mp3" },
+      "ui": { "accentColor": "#808080", "particleDensity": 0 }
+    }
+  },
+  "transitions": {
+    "default_duration_ms": 800,
+    "escalation_type": "crossfade",
+    "de_escalation_type": "fade_to_black",
+    "fizzle_type": "comedy_drop"
+  }
+}

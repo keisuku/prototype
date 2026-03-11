@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "CoinBattleSaki",
+    "slug": "coinbattle-saki",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "coinbattlesaki",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0D0D0D"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.coinbattlesaki.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-audio"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
